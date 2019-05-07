@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "13f62712-11c3-4f0d-ac54-9397169947f2",
+            "Value": {
+                "id": "160f7a2d-14ab-4b3e-92fb-ed00914c61e7",
+                "resourcePath": "objects\\oReset\\oReset.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1be2b5d0-c458-4814-ab66-2cbc7127172b",
             "Value": {
                 "id": "030681fd-5479-4b2d-a078-2821653be406",
@@ -303,6 +311,14 @@
             }
         },
         {
+            "Key": "8989e999-d01f-4bcb-937d-a76c5563fa51",
+            "Value": {
+                "id": "ab40a1b2-d89c-4ea9-91cd-e7c5ce454205",
+                "resourcePath": "sprites\\sBoat_mask\\sBoat_mask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "95a5a3e8-7bd5-4ee3-8bf0-52d8e90a5235",
             "Value": {
                 "id": "e3f88ce7-ad47-4900-8601-bacfa5ca4618",
@@ -380,6 +396,14 @@
                 "id": "9189ce34-7102-4cf5-98ad-07d62fe08339",
                 "resourcePath": "sprites\\sEnd_animation\\sEnd_animation.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bf59fc73-5265-4a49-9267-723fe54afa5d",
+            "Value": {
+                "id": "099dcfa2-df66-4d30-af30-4f4d554c78e6",
+                "resourcePath": "objects\\oInput\\oInput.yy",
+                "resourceType": "GMObject"
             }
         },
         {

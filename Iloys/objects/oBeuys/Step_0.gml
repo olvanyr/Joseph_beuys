@@ -1,20 +1,22 @@
 
 // Movement
 
-if keyboard_check(vk_right)
+if oInput.right
 {
 	hsp = walk_spd;
 	image_xscale = 1;
 	image_speed = 1;
 }
-if keyboard_check(vk_left)
+
+show_debug_message(oInput.right);
+if oInput.left
 {
 	hsp = -walk_spd;
 	image_xscale = -1;
 	image_speed = 1;
 }
 
-if not keyboard_check(vk_left) and not keyboard_check(vk_right)
+if not oInput.left and not oInput.right
 {
 	hsp = 0;
 	image_speed = 0;
@@ -22,7 +24,7 @@ if not keyboard_check(vk_left) and not keyboard_check(vk_right)
 
 //jump
 
-if keyboard_check_pressed(vk_space) && grounded==true
+if oInput.up && grounded==true
 {
 	vsp += jump_spd;
 }
